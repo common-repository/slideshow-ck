@@ -1,0 +1,143 @@
+/**
+ * @copyright	Copyright (C) 2016. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ * @author		Plugins CK - C�dric KEIFLIN - https://www.ceikay.com
+ */
+
+.ckinterface label {
+	/*float: left;
+	width: 180px;*/
+}
+
+.ckinterface input, .ckinterface select {
+	max-width: 100%;
+	margin-right: 2px;
+	margin-left: 2px; 
+}
+
+.ckinterface .ckheading { 
+	color: #2EA2CC;
+	font-weight: bold;
+}
+
+.ckinterface span { 
+	display: inline-block; 
+}
+
+.ckinterface span.ckdesc { 
+	display: inline;
+	font-style: italic;
+}
+
+.ckinterface .wp-color-result, .ckinterface img, .ckinterface fieldset { 
+	vertical-align: middle; 
+}
+
+.ckinterface .ckbutton img { 
+	vertical-align: sub; 
+}
+
+.ckinterface .inside > div { 
+	padding: 4px 0; 
+}
+
+.settings-error { 
+	clear: both; 
+}
+
+.ckmessage {
+	border-top: 1px solid #ddd;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+#ckoptionswrapper {
+	padding: 5px 0;
+}
+
+.cklogo {
+	border-radius: 3px;
+	box-shadow: #222 0 0 5px;
+	border: 1px solid #000;
+	background: #333;
+	margin: 10px;
+}
+
+.ckpoweredby {
+	text-align: center;
+	padding: 7px;
+}
+
+.ckproversioninfo {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+.ckproversioninfo-title {
+	text-align: center;
+	font-size: 30px;
+	border-bottom: 1px solid #ddd;
+	margin: 0 0 20px 0;
+	background: #f2f2f2;
+	padding: 20px 5px;
+	box-shadow: #e2e2e2 0 0 20px;
+}
+
+.ckproversioninfo-title a {
+	text-decoration: none;
+}
+
+.ckproversioninfo-button {
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+
+.ckproversioninfo-button a {
+	display: inline-block;
+	padding: 7px 20px;
+	background: dimgrey;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: all 0.2s;
+	border: 2px solid dimgray;
+}
+
+.ckproversioninfo-button a:hover {
+	background: white;
+	color: black;
+}
+
+.ckproversioninfo-content > p {
+	margin: 1em;
+}
+
+.ckproversioninfo-content > p:before {
+	content: ">";
+	margin: 0 5px;
+}
+
+.cktitle {
+	font-size: 21px;
+	color: #333;
+	padding: 10px 0;
+	font-weight: normal;
+	font-family: Segoe UI, arial;
+}
+
+/* for modal view */
+.ckmodal {
+	background: #f1f1f1;
+	left: 0;
+	padding: 10px !important;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100000;
+}
+
